@@ -48,9 +48,9 @@ body {
 h2 {
     font-size: 1.3em; /* Устанавливаем размер шрифта для заголовков второго уровня */
     color: #1C325B; /* Терракотовый цвет текста для заголовков */
-    margin-bottom: 10px; /* Отступ снизу для заголовков */
-    border-bottom: 15px solid #F1F0E8; /* Нижняя граница для заголовков */
-    padding-bottom: 5px; /* Отступ внутри заголовка снизу */
+    margin-bottom: 1px; /* Отступ снизу для заголовков */
+    border-bottom: 5px solid #F1F0E8; /* Нижняя граница для заголовков */
+    padding-bottom: 1px; /* Отступ внутри заголовка снизу */
 }
 
 .contact-info ul, .competences ul, .atouts ul, .interets ul {
@@ -59,7 +59,7 @@ h2 {
 }
 
 .contact-info ul li, .competences ul li, .atouts ul li, .interets ul li {
-    padding: 8px 0; /* Отступы сверху и снизу для элементов списка */
+    padding: 3px 0; /* Отступы сверху и снизу для элементов списка */
 }
 
 .contact-info ul li a {
@@ -79,22 +79,38 @@ h2 {
     flex-direction: column; /* Включаем вертикальное расположение содержимого */
 }
 
+aside {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px; /* Подбери подходящую ширину */
+}
 
+figure {
+    text-align: center;
+    width: 100px; /* Установи нужную ширину */
+}
+
+img {
+    width:40px; /* Настрой размер иконок */
+    height: auto;
+}
 
 .header-right h1 {
     font-size: 2.5em; /* Увеличиваем размер шрифта для имени */
     text-transform: uppercase; /* Преобразуем текст в верхний регистр */
-    margin-bottom: 20px; /* Отступ снизу для заголовка */
+    margin-bottom: 10px; /* Отступ снизу для заголовка */
 }
 
 .header-right h3 {
     font-size: 1.2em; /* Устанавливаем размер шрифта для подзаголовка */
-    margin-bottom: 10px; /* Отступ снизу для подзаголовка */
+    margin-bottom: 9px; /* Отступ снизу для подзаголовка */
 }
 
 .header-right p {
     font-size: 1em; /* Стандартный размер шрифта для текста в шапке */
-    margin-bottom: 0; /* Убираем отступ снизу */
+    margin-bottom: 1em; /* Убираем отступ снизу */
 }
 
 .right-column-content {
@@ -114,7 +130,7 @@ h1 {
 h3 {
     font-size: 1.2em; /* Устанавливаем размер шрифта для подзаголовков */
     color:  #F1F0E8; /* Терракотовый цвет для подзаголовков */
-    margin-bottom: 20px; /* Отступ снизу для подзаголовков */
+    margin-bottom: 10px; /* Отступ снизу для подзаголовков */
 }
 
 h3, h1 {
@@ -122,7 +138,7 @@ h3, h1 {
 }
 
 p {
-    margin-bottom: 15px; /* Отступ снизу для абзацев */
+    margin-bottom: 5px; /* Отступ снизу для абзацев */
 }
 
 .experience h2, .formation h2 {
@@ -130,7 +146,7 @@ p {
     font-size: 1.4em; /* Размер шрифта для заголовков "Expérience" и "Formation" */
     color: #1B262C; /* Терракотовый цвет для заголовков */
     text-transform: uppercase; /* Преобразование текста в верхний регистр */
-    margin-bottom: 10px; /* Отступ снизу */
+    margin-bottom: 2px; /* Отступ снизу */
     padding-bottom: 5px; /* Внутренний отступ снизу */
 }
 
@@ -149,12 +165,12 @@ p {
 
 ul {
     list-style-type: disc; /* Используем диски в качестве маркеров списка */
-    padding-left: 20px; /* Отступ для списка */
+    padding-left: 5px; /* Отступ для списка */
 }
 
 ul li {
-    margin-bottom: 10px; /* Отступ снизу для элементов списка */
-    line-height: 1.5; /* Увеличиваем высоту строки для списка */
+    margin-bottom:1px; /* Отступ снизу для элементов списка */
+    line-height: 1.7; /* Увеличиваем высоту строки для списка */
 }
 
 /* Стили для разделов опыта и образования */
@@ -171,7 +187,7 @@ strong {
 
 
 .right-column h3 {
-    margin-bottom:15px; /* Отступ снизу для заголовков третьего уровня */
+    margin-bottom:5px; /* Отступ снизу для заголовков третьего уровня */
     font-size: 1.1em; /* Устанавливаем размер шрифта для подзаголовков */
     color: #153448; /* Терракотовый цвет текста */
 }
@@ -182,12 +198,12 @@ strong {
 
 /* Дополнительные отступы и стили для списков */
 .right-column ul {
-    padding-left: 20px; /* Отступ для списков в правой колонке */
+    padding-left: 25px; /* Отступ для списков в правой колонке */
 }
 
 .right-column ul li {
-    margin-bottom: 8px; /* Отступ снизу для элементов списка */
-    line-height: 1.5; /* Высота строки для улучшения читаемости */
+    margin-bottom: 30px /*тступ снизу для элементов списка */
+    line-height: 1.3 /* Высота строки для улучшения читаемости */
 }
 
 .formation ul {
@@ -196,7 +212,7 @@ strong {
 }
 
 .formation ul li {
-    margin-bottom: 30px; /* Отступ снизу для элементов списка */
+    margin-bottom: 10px; /* Отступ снизу для элементов списка */
 }
 
 /* Медиа-запрос для адаптации на мобильных устройствах */
