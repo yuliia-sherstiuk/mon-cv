@@ -203,7 +203,7 @@ strong {
 
 .right-column ul li {
     margin-bottom: 30px /*тступ снизу для элементов списка */
-    line-height: 1.3 /* Высота строки для улучшения читаемости */
+    line-height 1.3 /* Высота строки для улучшения читаемости */
 }
 
 .formation ul {
