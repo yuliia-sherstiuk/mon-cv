@@ -25,7 +25,7 @@ body {
 /* Левая колонка */
 .left-column {
     width: 40%; /* Ширина левой колонки - 35% от общей ширины контейнера */
-    background-color: #B3C8CF; /* Светло-коричневый фон для левой колонки */
+    background-color: #6a8e238b; /* Светло-коричневый фон для левой колонки */
     padding: 30px 20px; /* Внутренние отступы для левой колонки */
 }
 
@@ -37,8 +37,8 @@ body {
 .photo img {
     width: 250px; /* Ширина изображения */
     height: 270px; /* Высота изображения */
-    border-radius: 10%; /* Скругляем изображение, чтобы оно стало круглым */
-    border: 15px solid #F1F0E8; /* Добавляем терракотовую рамку вокруг фотографии */
+    border-radius: 2%; /* Скругляем изображение, чтобы оно стало круглым */
+    border: 5px solid  #2c3e50; /* Добавляем терракотовую рамку вокруг фотографии */
 }
 
 .contact-info, .competences, .atouts, .interets {
@@ -49,7 +49,7 @@ h2 {
     font-size: 1.3em; /* Устанавливаем размер шрифта для заголовков второго уровня */
     color: #1C325B; /* Терракотовый цвет текста для заголовков */
     margin-bottom: 1px; /* Отступ снизу для заголовков */
-    border-bottom: 5px solid #F1F0E8; /* Нижняя граница для заголовков */
+    border-bottom: 5px solid #2c3e50; /* Нижняя граница для заголовков */
     padding-bottom: 1px; /* Отступ внутри заголовка снизу */
 }
 
@@ -151,11 +151,12 @@ p {
 }
 
 /* Добавляем цветную рамку для experience и formation */
-.experience, .formation {
-    border: 10px solid #B3C8CF; /* Цветная рамка вокруг разделов "Expérience" и "Formation" */
-    padding: 20px; /* Внутренние отступы для этих блоков */
-    border-radius: 10px; /* Скругляем углы рамки */
-    margin-bottom: 20px; /* Отступ снизу для разделов */
+
+.right-column, .experience, .formation {
+    border: 5px solid #6a8e238b; /* Цветная рамка вокруг разделов "Expérience" и "Formation" */
+    padding: 10px; /* Внутренние отступы для этих блоков */
+    border-radius: 1px; /* Скругляем углы рамки */
+    margin-bottom: 1px; /* Отступ снизу для разделов 
 }
 
 .experience h3, .formation h3 {
@@ -175,7 +176,7 @@ ul li {
 
 /* Стили для разделов опыта и образования */
 .experience {
-    margin-bottom: 40px; /* Дополнительный отступ снизу для раздела "Expérience" */
+    margin-bottom: 5px; /* Дополнительный отступ снизу для раздела "Expérience" */
 }
 
 strong {
